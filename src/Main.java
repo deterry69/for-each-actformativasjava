@@ -89,7 +89,7 @@ public class Main {
 
         String palabramaslarga = "";
         for (String palabra : palabras) {
-            if (palabra.length() > palabra.length()) {
+            if (palabra.length() > palabramaslarga.length()) {
                 palabramaslarga = palabra;
             }
         }
